@@ -1,0 +1,81 @@
+{
+  "data": {
+    "language": {
+      "title": "Linguagens Disponíveis",
+      "message": "Informe uma das linguagens abaixo para alterar a linguagem do bot na guilda.",
+      "changed": "<:check:945729858011533353> Linguagem alterada com sucesso.",
+      "notFound": "<:uncheck:945729878764953600> Ops! Nenhuma linguagem com este nome foi encontrada.",
+      "error": "<:uncheck:945729878764953600> Ops! Ocorreu um erro ao alterar a linguagem da guilda."
+    },
+    "events": {
+      "member": {
+        "add": {
+          "title": "Um novo membro entrou no servidor.",
+          "message": "{{MEMBER}} acabou de entrar.",
+          "joined": {
+            "title": "**Entrou no Discord em**",
+            "dateFormat": "DD/MM/YYYY, às HH:mm:ss"
+          }
+        },
+        "remove": {
+          "title": "Um membro saiu do servidor.",
+          "message": "{{MEMBER}} acabou de sair."
+        }
+      }
+    },
+    "commands": {
+      "command": {
+        "play": {
+          "noVoiceChannel": "<:uncheck:945729878764953600> Ops! Você precisa estar em um canal de voz para executar este comando.",
+          "alreadyChannel": "<:uncheck:945729878764953600> Ops! Infelizmente eu apenas posso tocar em um canal por vez, e no momento já estou ativo. Tente depois...",
+          "notFound": "<:uncheck:945729878764953600> Ops! Nenhum vídeo/música/playlist encontrado ao procurar por este link ou nome.",
+          "error": "<:uncheck:945729878764953600> {{GUILD_PREFIX}}{{COMMAND}} [nome da música || link da música]",
+          "unknownError": "<:uncheck:945729878764953600> Ops! Ocorreu um erro desconhecido ao iniciar ou adicionar a música a fila. Tente novamente!"
+        },
+        "uptime": {
+          "title": "Atividade do {{BOT_NAME}}",
+          "description": "Eu estou ligado há **{{DAYS}} dias, {{HOURS}} horas, {{MINUTES}} minutos e {{SECONDS}} segundos!**",
+          "unknownError": "<:uncheck:945729878764953600> Ops! Ocorreu um erro desconhecido ao executar o comando. Tente novamente!"
+        },
+        "clear": {
+          "success": "<:check:945729858011533353> Um total de **{{QTY_DELETED}}** mensagens foram deletadas.",
+          "maxMessages": "<:uncheck:945729878764953600> Ops! O máximo de mensagens que podem ser **limpadas** é de **{{QTY_MAX}}**.",
+          "error": "<:uncheck:945729878764953600> {{GUILD_PREFIX}}{{COMMAND}} [quantidade]",
+          "unknownError": "<:uncheck:945729878764953600> Ops! Ocorreu um erro desconhecido ao executar o comando. Tente novamente!"
+        },
+        "volume": {
+          "now": "<:song:945731587922874469> O volume atual da música é de **{{VOLUME}}%**!",
+          "success": "<:check:945729858011533353> O volume foi alterado com sucesso para **{{VOLUME}}%**!",
+          "quantity": "<:uncheck:945729878764953600> Ops! O volume permitido é de 0 - 100!",
+          "error": "<:uncheck:945729878764953600> Ops! Ocorreu um erro ao alterar o volume da música. Tente novamente!"
+        },
+        "queue": {
+          "noPlaying": "<:uncheck:945729878764953600> Ops! Nenhuma música está sendo tocada no momento."
+        }
+      },
+      "permission": {
+        "noPermission": "<:uncheck:945729878764953600> Ops! Você não possui permissão."
+      }
+    },
+    "music": {
+      "playing": "<:song:945731587922874469> • Tocando agora",
+      "duration": "Duração",
+      "views": "Visualizações",
+      "artist": "Artista",
+      "requestedBy": "Solicitado por",
+      "click": "Clique Aqui",
+      "queue": {
+        "title": "Fila de Músicas",
+        "added": {
+          "song": "<:song:945731587922874469> • Uma nova música foi adicionada a fila.",
+          "playlist": "<:song:945731587922874469> • Uma nova playlist foi adicionada a fila."
+        },
+        "more": {
+          "singular": "mais faixa",
+          "plural": "mais faixas"
+        }
+      }
+    }
+  },
+  "refs": {}
+}

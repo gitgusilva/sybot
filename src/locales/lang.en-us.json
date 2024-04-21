@@ -1,0 +1,81 @@
+{
+  "data": {
+    "language": {
+      "title": "Available languages",
+      "message": "Enter one of the languages below to change the bot's language in the guild.",
+      "changed": "<:check:945729858011533353> Language changed successfully.",
+      "notFound": "<:uncheck:945729878764953600> Oops! No language with this name was found.",
+      "error": "<:uncheck:945729878764953600> Oops! There was an error changing the guild language."
+    },
+    "events": {
+      "member": {
+        "add": {
+          "title": "A new member has joined the server.",
+          "message": "{1} just entered.",
+          "joined": {
+            "title": "**Joined on Discord at**",
+            "dateFormat": "MM/DD/YYYY, at HH:mm:ss"
+          }
+        },
+        "remove": {
+          "title": "A member has left the server.",
+          "message": "{1} just left."
+        }
+      }
+    },
+    "commands": {
+      "command": {
+        "play": {
+          "noVoiceChannel": "<:uncheck:945729878764953600> Oops! You need to be in a voice channel to execute this command.",
+          "alreadyChannel": "<:uncheck:945729878764953600> Oops! Unfortunately I can only play on one channel at a time, and at the moment I'm already active. try soon...",
+          "notFound": "<:uncheck:945729878764953600> Oops! No video/song/playlist found when searching for this link or name.",
+          "error": "<:uncheck:945729878764953600> {1}{2} [music name || music link]",
+          "unknownError": "<:uncheck:945729878764953600> Oops! An error occurred while executing this command. Try again!"
+        },
+        "uptime": {
+          "title": "{{BOT_NAME}} Uptime",
+          "description": "I have been up for **{1} days, {2} hours, {3} minutes, and {4} seconds!**",
+          "unknownError": "<:uncheck:945729878764953600> Oops! An error occurred while executing this command. Try again!"
+        },
+        "clear": {
+          "success": "<:check:945729858011533353> A total of **{1}** messages were deleted.",
+          "maxMessages": "<:uncheck:945729878764953600> Oops! The maximum messages to be **cleaned** is **{1}**.",
+          "error": "<:uncheck:945729878764953600> {1}{2} [quantity]",
+          "unknownError": "<:uncheck:945729878764953600> Oops! An error occurred while executing this command. Try again!"
+        },
+        "volume": {
+          "now": "<:song:945731587922874469> The current volume of the song is **{1}%**!",
+          "success": "<:check:945729858011533353> The volume has been successfully changed to **{1}%**!",
+          "quantity": "<:uncheck:945729878764953600> Oops! The allowed volume is 0 - 100!",
+          "error": "<:uncheck:945729878764953600> Oops! An error occurred while changing the music volume. Try again!"
+        },
+        "queue": {
+          "noPlaying": "<:uncheck:945729878764953600> Oops! No songs are currently playing."
+        }
+      },
+      "permission": {
+        "noPermission": "<:uncheck:945729878764953600> Oops! you don't have permission."
+      }
+    },
+    "music": {
+      "playing": "<:song:945731587922874469> • Now playing",
+      "duration": "Duration",
+      "views": "Views",
+      "artist": "Artist",
+      "click": "Click Here",
+      "requestedBy": "Requested by",
+      "queue": {
+        "title": "Song Queue",
+        "added": {
+          "song": "<:song:945731587922874469> • New song added to queue.",
+          "playlist": "<:song:945731587922874469> • New playlist added to queue."
+        },
+        "more": {
+          "singular": "more track",
+          "plural": "more tracks"
+        }
+      }
+    }
+  },
+  "refs": {}
+}
